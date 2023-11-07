@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "zillow_data" {
-  name                     = "zillow_data_bucket"
+  name                     = "gcpzillowdatabucket"
   project                  = "gcpzillowproject"
   location                 = "US"
   force_destroy            = true
