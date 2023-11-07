@@ -6,7 +6,6 @@ resource "google_storage_bucket" "zillow_data" {
   public_access_prevention = "enforced"
 }
 
-# provider "google" {
-#   project = "zillow_project"
-#   region  = "US"
-# }
+provider "google" {
+  project = "zillow_project"
+}
